@@ -1,25 +1,42 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  line-height: 150%;
+
 }
 
-nav {
+ h1 {
+  font-size: 44px;
+  line-height: 1.2em;
+}
+
+p {
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+nav
+{
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
 }
 
-.logo {
+.logo
+{
   margin: 20px;
   width: 100px;
 }
 
-.large-pic {
+.large-pic
+{
   width: 100%;
 }
 
-.medium-pic {
+.medium-pic
+{
   width: 70%;
 }
 
@@ -42,11 +59,29 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* unvisited */
+a:link {
+  color:#0070BB;
+}
+
+/* mouse over */
+a:hover {
+  color:#0070BC;
+}
+
 article {
   padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float: left;
+
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
 }
